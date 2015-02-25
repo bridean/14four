@@ -1,0 +1,39 @@
+#whole {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color:#fff;
+    height:396px;
+    width:335px;
+    background-color:#222;
+    border: 2px solid #555;
+    border-radius:15px;
+    padding-top:10px;
+}
+
+.green {width:8px; height:8px; background:#0f0; border-radius:4px; float:left; margin:14px 14px 0px 0px;}
+
+.yellow {width:8px; height:8px; background:#ff0; border-radius:4px; float:left; margin:14px 14px 0px 0px;}
+
+.red {width:8px; height:8px; background:#f00; border-radius:4px; float:left; margin:14px 14px 0px 0px;}
+
+#middle {
+    height:298px;
+    margin-top:14px;
+    border-top:2px solid #111;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+    height:35px;
+    border-bottom:2px solid #111;
+}
+
+#div1a, #div1b, #div2a, #div2b, #div3a,  #div3b, #div4a, #div4b, #div5a, #div5b, #div6a, #div6b, #div7a, #div7b, #div8a, #div8b {float:left; line-height:35px;}
+
+#div1a, #div2a, #div3a, #div4a, #div5a, #div6a, #div7a, #div8a {width:106px; padding-left:18px; border-right:2px solid #111;}
+
+#div1b, #div2b, #div3b, #div4b, #div5b, #div6b, #div7b, #div8b {width:147px; padding-left:18px; color:#565656;}
+
+#chooser {
+    float:right;
+    margin-top:12px;
+    margin-right:16px;}

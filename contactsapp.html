@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Title of the document</title>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+<script>
+   
+    var p1phone = "323-555-1234";
+    var p1email = "rich@tripod.com";
+    var p1addy = "5646 Brooklyn Ave NW<br />Seattle, WA 98105";
+    
+    var p2phone = "323-555-1234";
+    var p2email = "christian@yahoo.com";
+    var p2addy = "5646 Crooklyn Ave W<br />Seattle, WA 98107";
+    
+    var p3phone = "323-555-1234";
+    var p3email = "scott@mailinator.com";
+    var p3addy = "6539 Wilton Ave<br />Culver City, CA 90234"; 
+    
+    var p4phone = "323-555-1234";
+    var p4email = "danny@hotmail.com";
+    var p4addy = "5646 Drooklyn Ave S<br />Seattle, WA 98103"; 
+
+        var p5phone = "323-555-1234";
+    var p5email = "taka@myspace.com";
+    var p5addy = "5646 Brooklyn Ave NW<br />Seattle, WA 98105";
+    
+    var p6phone = "323-555-1234";
+    var p6email = "tim@netscape.com";
+    var p6addy = "5646 Crooklyn Ave W<br />Seattle, WA 98107";
+    
+    var p7phone = "323-555-1234";
+    var p7email = "patrick@live.com";
+    var p7addy = "5646 Drooklyn Ave S<br />Seattle, WA 98108"; 
+    
+    var p8phone = "323-555-1234";
+    var p8email = "jacques@aol.com";
+    var p8addy = "5646 Frooklyn Ave S<br />Seattle, WA 98103";
+    
+    
+$(document).ready(function() {
+        
+     document.getElementById("div1b").innerHTML = p1email;  
+     document.getElementById("div2b").innerHTML = p2email; 
+     document.getElementById("div3b").innerHTML = p3email;  
+     document.getElementById("div4b").innerHTML = p4email; 
+     document.getElementById("div5b").innerHTML = p5email;  
+     document.getElementById("div6b").innerHTML = p6email; 
+     document.getElementById("div7b").innerHTML = p7email;  
+     document.getElementById("div8b").innerHTML = p8email; 
+     });
+ 
+     
+</script>
+
+
+<div id="whole"><strong><p style="padding-left:18px; font-size:14px;line-height:20px; margin-top:9px;">Contacts</p></strong>
+     <div id="middle">
+        <div id="p1">
+            <div id="div1a"><div class="green"></div><span style="float:left;">Christian</span></div>
+            <div id="div1b">value</div>
+        </div>
+        <div id="p2">
+            <div id="div2a"><div class="green"></div><span style="float:left;">Rich</span></div>
+            <div id="div2b">value</div>
+        </div>
+        <div id="p3">
+            <div id="div3a"><div class="green"></div><span style="float:left;">Scott</span></div>
+            <div id="div3b">value</div>
+        </div>
+        <div id="p4">
+            <div id="div4a"><div class="green"></div><span style="float:left;">Danny</span></div>
+            <div id="div4b">value</div>
+        </div>
+        <div id="p5">
+            <div id="div5a"><div class="red"></div><span style="float:left;">Taka</span></div>
+            <div id="div5b">value</div>
+        </div>
+        <div id="p6">
+            <div id="div6a"><div class="yellow"></div><span style="float:left;">Tim</span></div>
+            <div id="div6b">value</div>
+        </div>    <div id="p7">
+            <div id="div7a"><div class="green"></div><span style="float:left;">Patrick</span></div>
+            <div id="div7b">value</div>
+        </div>
+        <div id="p8">
+            <div id="div8a"><div class="yellow"></div><span style="float:left;">Jaques</span></div>
+                <div id="div8b">value</div>
+        </div>
+    </div>
+    <div id="footer">
+        <select id="chooser">
+            <option value="1">Email address</option>
+            <option value="2">Phone number</option>
+        </select>
+    </div>
+</div>
+
+
+  </body>
+</html>
