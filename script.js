@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+
+    
+    $("#div1a, #div2a, #div3a, #div4a, #div5a, #div6a, #div7a, #div8a").mouseenter(function(){
+        $(this).css("background-color", "#888");
+    });
+
+    $("#div1a, #div2a, #div3a, #div4a, #div5a, #div6a, #div7a, #div8a").mouseleave(function(){
+        $(this).css("background-color", "#222");
+    });
+
+
     
     $("#chooser").change(function() {
     var control = $(this);
